@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Narnoor&display=swap');
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background: rgb(255,145,144);
+    background: linear-gradient(315deg, rgba(255,145,144,1) 6%, rgba(94,114,235,1) 50%, rgba(253,192,148,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    padding: 20px;
+    width: 80vw;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.container h1{
+    margin: 0px 0px;
+    text-align: center;    
+    font-family: 'Lilita One', cursive;
+}
+
+.container p{
+    margin: 0px 0px;
+}
+
+.content{
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.content h3{
+    margin: 0px 0px;
+}
+
+.content p{
+    margin: 0px 0px;
+}
+
+.content span{
+    font-size: 1em;
+    color: crimson;
+}
